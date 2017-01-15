@@ -2,18 +2,18 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.6'
+gem 'rails'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
 # Use twitter bootstrap sass
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 
@@ -22,22 +22,22 @@ group :development do
   gem 'better_errors'
   gem 'letter_opener'
   gem 'guard'
-  gem 'guard-rspec', '~> 4.2.8'
+  gem 'guard-rspec'
 end
 
 
 group :development, :test do
   gem 'sqlite3'
   gem 'factory_girl_rails'
-  gem 'rspec-rails', '~> 3.0.0.beta'
-  gem 'rspec', '~> 3.0.0.beta2'
+  gem 'rspec-rails'
+  gem 'rspec'
   gem 'faker'
   gem 'populator'
 end
 
 group :test do
   gem 'shoulda-matchers'
-  gem 'shoulda-callback-matchers', '>=0.3.2'
+  gem 'shoulda-callback-matchers'
 end
 
 group :production do
@@ -47,13 +47,13 @@ end
 
 gem 'devise'
 gem 'carrierwave'
-gem 'friendly_id', '~> 5.0.0'
+gem 'friendly_id'
 
-gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate'
 gem 'backstretch-rails'
 
-gem 'remotipart', '~> 1.2'
-gem 'counter_culture', '~> 0.1.23'
+gem 'remotipart'
+gem 'counter_culture'
 gem 'rails_autolink'
 
 # Use ActiveModel has_secure_password
